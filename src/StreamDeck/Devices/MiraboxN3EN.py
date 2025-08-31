@@ -10,7 +10,7 @@ from ..ImageHelpers import ImageTools
 from .StreamDeck import StreamDeck, ControlType, DialEventType
 from .Mirabox import Mirabox
 
-class MiraboxN3(Mirabox):
+class MiraboxN3EN(Mirabox):
     """
     Represents a physically attached Mirabox Stream Dock N3 (EN) device.
     """
@@ -37,7 +37,7 @@ class MiraboxN3(Mirabox):
 
     DIAL_COUNT = 3
 
-    DECK_TYPE = "Mirabox Stream Dock N3"
+    DECK_TYPE = "Mirabox Stream Dock N3en"
     DECK_VISUAL = True
     DECK_TOUCH = False
 
